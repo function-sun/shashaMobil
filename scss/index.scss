@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+body,div,p,ul,ol,li,dl,dd,dt,form,input,table,tr,td,h1,h2,h3,h4,h5,h6,textarea,figure,fieldset{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:26.67vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑"，Arial;
+    background:#f0f0f0;
+//  display: -webkit-flex;
+//  -webkit-flex-direction:column;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+    display:block;
+}
+
+
+//头部与时间
+.header{
+    width:100%;
+    height:0.58rem;
+    background:#fff;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.headerTime{
+    width:100%;
+    height:0.2rem;
+    img{
+        width:3.75rem;
+        height:0.2rem;
+    }
+}
+.headerNavigation{
+    width:100%;
+    height:0.38rem;
+    border-bottom:1px solid #e8e4de;
+    display:-webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.icon1{
+    margin-left:0.12rem;
+    margin-top:0.08rem;
+    display:-webkit-flex;
+    a{
+        display:-webkit-flex;
+        i{
+            font-size:0.2rem;
+            color:#414141;
+        }
+    }
+}
+.mobilTit{
+    display:-webkit-flex;
+    img{
+        width:0.74rem;
+        height:0.36rem;
+    }
+}
+.icon2{
+    display:-webkit-flex;
+    margin-right:0.12rem;
+    margin-top:0.08rem;
+    a{
+        display:-webkit-flex;
+        i{
+            font-size:0.2rem;
+            color:#414141;
+        }
+    }
+}
+
+//banner轮播图
+.swiper-container{
+    width:100%;
+    height:1.8rem;
+}
+.swiper-slide{
+    img{
+        width:3.75rem;
+        height:1.8rem;
+        float:left;
+    }
+}
+
+//十类专区
+.specialArea{
+    width:100%;
+    height:1.74rem;
+    background:#fff;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.areaTop{
+    width:100%;
+    height:0.81rem;
+    display:-webkit-flex;
+}
+.areaBot{
+    width:100%;
+    height:0.93rem;
+    display:-webkit-flex;
+}
+.areaTopMain{
+    width:100%;
+    height:0.63rem;
+    padding:0 0.25rem;
+    margin-top:0.18rem;
+    display:-webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.areaBotMain{
+    width:100%;
+    height:0.63rem;
+    padding:0 0.25rem;
+    margin-top:0.15rem;
+    display:-webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.areamainOne{
+    width:0.48rem;
+    height:0.63rem;
+    text-align: center;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    -webkit-align-items: center;
+    img{
+        width:0.39rem;
+        height:0.39rem;
+    }
+    p{
+        font-size:0.1rem;
+        color:#323232;
+        margin-top:0.12rem;
+    }
+}
+.areamainTwo{
+    width:0.48rem;
+    height:0.63rem;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    -webkit-align-items: center;
+    img{
+        width:0.39rem;
+        height:0.39rem;
+    }
+    p{
+        font-size:0.1rem;
+        color:#323232;
+        margin-top:0.12rem;
+    }
+}
+.areamainThree{
+    width:0.48rem;
+    height:0.63rem;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    -webkit-align-items: center;
+    img{
+        width:0.39rem;
+        height:0.39rem;
+    }
+    p{
+        font-size:0.1rem;
+        color:#323232;
+        margin-top:0.12rem;
+    }
+}
+.areamainFour{
+    width:0.48rem;
+    height:0.63rem;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    -webkit-align-items: center;
+    img{
+        width:0.39rem;
+        height:0.39rem;
+    }
+    p{
+        font-size:0.1rem;
+        color:#323232;
+        margin-top:0.12rem;
+    }
+}
+.areamainFive{
+    width:0.48rem;
+    height:0.63rem;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    -webkit-align-items: center;
+    img{
+        width:0.39rem;
+        height:0.39rem;
+    }
+    p{
+        font-size:0.1rem;
+        color:#323232;
+        margin-top:0.12rem;
+    }
+}
+
+//公告
+.gonggao{
+    width:100%;
+    height:0.45rem;
+    margin-top:2px;
+    margin-bottom:0.09rem;;
+    background:#fff;
+    display:-webkit-flex;
+}
+.gonggaoPic{
+    width:0.72rem;
+    height:0.45rem;
+    img{
+        width:0.72rem;
+        height:0.46rem;
+    }
+}
+.gonggaoMain{
+    width:3.03rem;
+    height:0.45rem;
+    overflow:hidden;
+}
+.swiper-slide{
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    p:first-child{
+        margin-top:0.07rem;
+        font-size:0.13rem;
+        color:#161616;
+    }
+    p:last-child{
+        margin-top:0.01rem;
+        font-size:0.12rem;
+        color:#545454;
+    }
+}
+
+
+//每日必看
+.mustLook{
+    width:100%;
+    height:5.45rem;
+    background:#fff;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.lookTitle{
+    width:100%;
+    height:0.32rem;
+    p{
+        font-size:0.13rem;
+        color:#e9256b;
+        text-indent:0.1rem;
+        line-height:0.32rem;
+    }
+}
+.lookPicOne{
+    width:100%;
+    height:1.64rem;
+    margin-bottom:0.08rem;
+    img{
+        width:3.75rem;
+        height:1.64rem;
+    }
+}
+.lookMore{
+    width:100%;
+    height:0.4rem;
+    border-top:1px solid #efeff4;
+    background:#fff;
+    text-align: center;
+    p{
+        font-size:0.14rem;
+        color:#424242;
+        line-height:0.4rem;
+    }
+}
