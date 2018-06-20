@@ -13,8 +13,8 @@ html,body{
 body{
     font-family:"微软雅黑"，Arial;
     background:#f0f0f0;
-//  display: -webkit-flex;
-//  -webkit-flex-direction:column;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
 }
 ul,ol{
     list-style:none;
@@ -253,7 +253,7 @@ img{
 //每日必看
 .mustLook{
     width:100%;
-    height:5.45rem;
+    height:8.45rem;
     background:#fff;
     display:-webkit-flex;
     -webkit-flex-direction:column;
@@ -277,15 +277,235 @@ img{
         height:1.64rem;
     }
 }
+.lookTitle1{
+    width:100%;
+    height:0.4rem;
+    background:#fff;
+    text-align: center;
+    p:nth-child(1){
+        float:left;
+        font-size:0.13rem;
+        color:#e9256b;
+        text-indent:0.1rem;
+        line-height:0.4rem;
+    }
+    p:nth-child(2){
+        float:left;
+        font-size:0.13rem;
+        color:#1d1d1d;
+        text-indent:0.1rem;
+        line-height:0.4rem;
+    }
+    p:nth-child(4){
+        float:left;
+        font-size:0.13rem;
+        color:#9b9b9b;
+        text-indent:1.7rem;
+        line-height:0.4rem;
+    }
+    img{
+        width:0.07rem;
+        height:0.13rem;
+        float:right;
+        margin-right:0.08rem;
+        margin-top:0.13rem;
+    }
+}
+.temaiping{
+    width:100%;
+    height:2.24rem;
+    position:relative;
+    img:first-child{
+        width:100%;
+        height:2.24rem;
+    }
+    img:last-child{
+        width:0.27rem;
+        height:0.27rem;
+        position:absolute;
+        left:3.3rem;
+        top:1.8rem;
+    }
+}
 .lookMore{
     width:100%;
     height:0.4rem;
     border-top:1px solid #efeff4;
     background:#fff;
+    margin-bottom:0.09rem;
     text-align: center;
     p{
         font-size:0.14rem;
         color:#424242;
         line-height:0.4rem;
     }
+}
+
+//热卖产品
+.hotsale{
+    width:100%;
+    height:8.28rem;
+    margin-top:0.09rem;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.hotsaleTitle{
+    width:100%;
+    height:0.81rem;
+    background:#fff;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.hstT{
+    width:100%;
+    height:0.4rem;
+    border-bottom:1px solid #f8f8f8;
+    p{
+        font-size:0.15rem;
+        color:#e91a65;
+        text-indent:0.14rem;
+        line-height:0.4rem;
+    }
+}
+.hstFen{
+    width:100%;
+    height:0.27rem;
+    padding:0.07rem 0;
+    display:-webkit-flex;
+    position:relative;
+    a{
+        font-size:0.14rem;
+        color:#151515;
+        border-left:1px solid #efefef;
+        padding:0 0.23rem;
+        line-height:0.27rem;
+    }
+    a:nth-child(1){
+        border:none;
+    }
+    a:nth-child(5){
+        color:#ea2e72;
+    }
+    img{
+        width:0.07rem;
+        height:0.11rem;
+        position:absolute;
+        right:0.85rem;
+        top:0.15rem;
+    }
+}
+.hotsaleMain{
+    width:100%;
+    height:7.47rem;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.hsmRow{
+    width:100%;
+    height:2.4rem;
+    margin-top:0.08rem;
+    display:-webkit-flex;
+}
+.hsmRow_left{
+    width:1.74rem;
+    height:2.4rem;
+    background:#fff;
+    margin-left:0.09rem;
+    position:relative;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.leftPic{
+    width:1.74rem;
+    height:1.6rem;
+    border-bottom:0.01rem solid #fafafa;
+}
+.leftText{
+    font-size:0.13rem;
+    color:#191919;
+    line-height:0.2rem;
+    margin-left:0.1rem;
+    margin-top:0.05rem;
+}
+.roeleftMain{
+    width:1.74rem;
+    height:0.35rem;
+    display:-webkit-flex;
+    p:nth-child(1){
+        margin-left:0.05rem;
+        font-size:0.17rem;
+        color:#eb397a;
+        line-height:0.35rem;
+    }
+    p:nth-child(2){
+        font-size:0.1rem;
+        color:#898989;
+        text-decoration: line-through;
+        margin:0.1rem 0.1rem 0 0.01rem;
+    }
+    p:nth-child(3){
+        font-size:0.1rem;
+        color:#c59451;
+        margin:0.1rem 0.1rem 0 0.01rem;
+    }
+}
+.biaoqian{
+    width:0.28rem;
+    height:0.28rem;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+//底部一级菜单栏
+.footer{
+    width:100%;
+    height:0.44rem;
+    background:#252525;
+    display:-webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items:center;
+    a{
+        width:20%;
+        height:0.44rem;
+        text-align:center;
+        display:-webkit-flex;
+        -webkit-flex-direction:column;
+        i{
+            margin-top:0.03rem;
+            font-size:0.21rem;
+            color:#e5e5e5;
+        }
+        p{
+            font-size:0.09rem;
+            color:#e5e5e5;
+        }
+    }
+//  a:nth-child(1){
+//      i{
+//          font-size:0.23rem;
+//          color:#ff428b;
+//      }
+//      p{
+//          font-size:0.09rem;
+//          color:#ff428b;
+//      }
+//  }
+    a:hover{
+        i{
+            font-size:0.21rem;
+            color:#ff428b;
+        }
+        p{
+            font-size:0.09rem;
+            color:#ff428b;
+        }
+    }
+}
+
+//zong
+.mainzong{
+    -webkit-flex:1;
+    overflow-y:scroll;
+    overflow-x:hidden;
 }
