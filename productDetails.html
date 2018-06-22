@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/productDetails.css"/>
+<link rel="stylesheet" type="text/css" href="css/swiper-4.3.3.min.css"/>
+<title></title>
+</head>
+<body>
+	<!--头部导航与时间-->
+	<div class="header">
+		<div class="headerTime">
+			<img src="img/mobilTitle.png"/>
+		</div>
+		<div class="headerNavigation">
+			<div class="icon1">
+				<a href="#"><img src="img/mobilbackicon.png"/></a>
+			</div>
+			<div class="mobilTit">
+				<p>闪电保税</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mainZong">
+		<!--活动倒计时-->
+		<div class="timeOut">
+			<img src="img/threepagepic.png"/>
+			<p>特卖进行中，完结时间倒数</p>
+			<p></p>
+		</div>
+		
+		<!--产品图片与价格-->
+		<div class="prodectPicprice">
+			<div class="productmesg">
+				<img src="img/jiantouPic.png"/>
+				<div class="mesgLeft">
+					<img src="img/chanpxiangqingtu.png"/>
+					<img src="img/shoucang.png"/>
+					<img src="img/fengxiang.png"/>
+					<p>4</p>
+					<p>折</p>
+				</div>
+			</div>
+			<div class="productPic">
+				<div class="swiper-container">  
+			        <div class="swiper-wrapper">  
+			            <div class="swiper-slide">  
+			                <img src="img/prodectPic1.png" alt="">  
+			            </div>  
+			            <div class="swiper-slide">  
+			                <img src="img/prodectPic2.png" alt="">  
+			            </div>  
+			            <div class="swiper-slide">  
+			                <img src="img/prodectPic3.png" alt="">  
+			            </div>  
+			            <div class="swiper-slide">  
+			                <img src="img/prodectPic2.png" alt="">  
+			            </div> 
+			            <div class="swiper-slide">  
+			                <img src="img/prodectPic3.png" alt="">  
+			            </div>
+			        </div>  
+			        <!-- 分页器 -->  
+			        <div class="swiper-pagination" style="bottom:-17px"></div>  
+			    </div> 
+			</div>
+			<div class="productprice">
+				<p>￥62.0</p>
+				<p>市场价:￥156.0</p>
+				<p>4折</p>
+			</div>
+		</div>
+		
+		<!--保税仓发货-->
+		<div class="Warehouse">
+			<img src="img/baoshuicang.png"/>
+			<p>商品价格已含税<br/>下单后最快3个工作日到手<span>偏远地区除外</span></p>
+			<img src="img/baoshuicangfengefu.png"/>
+			<p>￥168包邮</p>
+		</div>
+		
+		<!--产品详情信息-->
+		<div class="goodsMessage">
+			<div class="goodsText">
+				<p>蕴含三种蜂蜜营养——蜂胶、绿蜂胶及蜂皇浆，有效抗菌。预防肌肤老化，确保干燥肌得到滋润，打造出如蜂蜜般的光泽肌肤。</p>
+				<p><span>【保税仓直送】</span>JMsolution 肌司研密莹蜂胶面膜 30毫升*10</p>
+			</div>
+			<div class="goodsNum">
+				<p>数量</p>
+				<div class="goodsinput">
+					<input id="min" name="" type="button" value="-"/>  
+					<input id="text_box" name="" type="text" value="1" readonly= "true"/>  
+					<input id="add" name="" type="button" value="+"/>
+				</div>
+			</div>
+			<div class="pingfeng">
+				<p>评分</p>
+				<img src="img/wujiaoxing.png"/>
+				<p>(14人评价)</p>
+			</div>
+			<div class="keywords">
+				<p>保湿</p>
+				<p>滋润</p>
+				<p>提拉紧致</p>
+			</div>
+			<div class="dianzanHaopin">
+				<img src="img/hangguo.png"/>
+				<p>韩国品牌</p>
+				<img src="img/hot.png"/>
+				<p>热卖中</p>
+				<img src="img/good.png"/>
+				<p>好评中</p>
+			</div>
+			<div class="xiangqingDeng">
+				<p>商品参数</p>
+				<img src="img/morejiantou.png"/>
+			</div>
+			<div class="xiangqingDeng">
+				<p>商品详情</p>
+				<img src="img/morejiantou.png"/>
+			</div>
+			<div class="xiangqingDeng">
+				<p>用户评价</p>
+				<img src="img/morejiantou.png"/>
+			</div>
+		</div>
+	</div>
+	
+	<!--结账区域-->
+	<div class="checkOut">
+		<span>0</span>
+		<img src="img/xiangqjiezhangcar.png"/>
+		<p>￥62.0</p>
+		<a href="#">立即抢购</a>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="js/prodectDetails.js"></script>
+<script type="text/javascript" src="js/swiper-4.3.3.min.js"></script>
+<script type="text/javascript">
+	var mySwiper = new Swiper( '.swiper-container', {  
+       	autoplay: 0,
+       	loop: false,
+		pagination: {
+		    el: '.swiper-pagination',
+		    Type: 'bullets',
+		},
+    })
+</script>

@@ -13,3 +13,10 @@
 //      } 
 //   })
 //})
+
+//跳转页面
+$(function(){
+	$(".areaTopMain .areamainOne").click(function(){
+		window.location.href = "BondedPage.html";
+	})
+})

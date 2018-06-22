@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+body,div,p,ul,ol,li,dl,dd,dt,form,input,table,tr,td,h1,h2,h3,h4,h5,h6,textarea,figure,fieldset{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:26.67vw;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑"，Arial;
+    background:#f0f0f0;
+//  display: -webkit-flex;
+//  -webkit-flex-direction:column;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+    display:block;
+}
+
+//头部与时间
+.header{
+    width:100%;
+    height:0.58rem;
+    background:#fff;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+}
+.headerTime{
+    width:100%;
+    height:0.2rem;
+    img{
+        width:3.75rem;
+        height:0.2rem;
+    }
+}
+.headerNavigation{
+    width:100%;
+    height:0.38rem;
+    border-bottom:1px solid #e8e4de;
+    display:-webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.icon1{
+    display:-webkit-flex;
+    a{
+        display:-webkit-flex;
+        img{
+            width:0.33rem;
+            height:0.36rem;
+            
+        }
+    }
+}
+.mobilTit{
+    display:-webkit-flex;
+    p{
+        font-size:0.18rem;
+        color:#272727;
+        margin-right:1.52rem;
+        line-height:0.38rem;
+    }
+}
+
+//活动倒计时
+.timeOut{
+    width:100%;
+    height:0.25rem;
+    background:#ec3e7d;
+    display:-webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    p{
+        font-size:0.11rem;
+        color:#fff;
+    }
+}
+
+
+//闪电保税背景图
+.bgImg{
+    width:100%;
+    height:1.88rem;
+    background:url(../img/shandianbaoshui.png);
+    background-size:100% 1.88rem;
+}
+
+
+//无缝滑动导航
+.sildnav{
+//  width:100%;
+    height:0.36rem;
+    background:#fff;
+    margin-bottom:0.15rem;
+    display:-webkit-flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    a{
+        display:-webkit-flex;
+        -webkit-flex-shrink:0;
+        padding:0.12rem 0.12rem;
+        font-size:0.12rem;
+        color:#252527;
+    }
+    a:nth-child(1){
+        color:#ec3e7d;
+    }
+}
+.sildnav::-webkit-scrollbar {
+    display: none;
+}
+
+
+//保税产品
+.bondedgoods{
+    width:100%;
+    display:-webkit-flex;
+    -webkit-flex-direction: column;
+}
+.bondedRow{
+    width:100%;
+    height:2.83rem;
+    margin-bottom:0.07rem;
+    display:-webkit-flex;
+}
+.bondedrowMian{
+    width:1.63rem;
+    height:2.83rem;
+    background:#fff;
+    padding:0 0.07rem;
+    margin-left:0.07rem;
+    display:-webkit-flex;
+    -webkit-flex-direction: column;
+    img{
+        width:1.63rem;
+        height:1.78rem;
+        border-bottom:0.01rem solid #b6b6b6;
+    }
+    p:nth-child(2){
+        font-size:0.08rem;
+        color:#7e7f82;
+        margin-top:0.05rem;
+        span{
+            font-size:0.08rem;
+            color:#e58b19;
+        }
+    }
+    p:nth-child(3){
+        font-size:0.08rem;
+        color:#2b2b2d;
+        line-height:0.22rem;
+    }
+    p:nth-child(4){
+        width:0.31rem;
+        height:0.17rem;
+        background:#c69a62;
+        border-radius:0.02rem;
+        font-size:0.08rem;
+        color:#fff;
+        text-align:center;
+        line-height:0.17rem;
+    }
+}
+.bondedgoodsprice{
+    margin-top:0.02rem;
+    display:-webkit-flex;
+    p:first-child{
+        font-size:0.15rem;
+        font-weight:600;
+        color:#ec3e7d;
+    }
+    p:last-child{
+        font-size:0.12rem;
+        color:#62656a;
+        margin-top:0.03rem;
+        text-decoration: line-through;
+    }
+}
